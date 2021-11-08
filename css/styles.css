@@ -1,0 +1,219 @@
+:root {
+  --main-title-color: #ffffff;
+  --second-title-color: #212121;
+  --accent-title-color: #2196f3;
+  --main-text-color: #757575;
+  --main-btn-color: #ffffff;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* -----------------HEADER-------------------- */
+
+.header-link {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--second-title-color);
+}
+
+.header-tel,
+.header-mail {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--second-title-color);
+}
+
+.header-link:hover {
+  color: var(--accent-title-color);
+}
+
+.header-link:focus {
+  color: var(--accent-title-color);
+}
+
+.header-tel:hover {
+  color: var(--accent-title-color);
+}
+
+.header-mail:hover {
+  color: var(--accent-title-color);
+}
+
+.header-tel:focus {
+  color: var(--accent-title-color);
+}
+.header-mail:focus {
+  color: var(--accent-title-color);
+}
+
+.header-logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+/* --------------DECISION------------ */
+
+.decision-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.decision-btn {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  color: var(--main-btn-color);
+  background-color: var(--accent-title-color);
+}
+
+/* --------------------THINGS---------------- */
+
+.things-item-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--second-title-color);
+}
+
+.things-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+
+.things-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: var(--second-title-color);
+}
+
+/* ----------------------GROUP---------------------------- */
+
+.group-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: var(--second-title-color);
+}
+
+.group-item-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--second-title-color);
+}
+
+.group-item-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+
+/* ----------------------------FOOTER-------------------- */
+
+.footer {
+  background: #000;
+}
+.footer-link {
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--main-title-color);
+}
+
+.footer-link-z {
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+
+/* -------------------------THEMES------------------- */
+
+.themes-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  color: var(--second-title-color);
+}
+
+.themes-btn:hover {
+  color: var(--main-btn-color);
+  background-color: var(--accent-title-color);
+}
+
+.themes-btn:focus {
+  color: var(--main-btn-color);
+  background-color: var(--accent-title-color);
+}
+
+/* -------------------------FOOTER----------------------- */
+
+.footer-link {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--main-title-color);
+}
+
+.footer-link-z {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+
+.footer-logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
