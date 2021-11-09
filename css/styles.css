@@ -102,7 +102,6 @@ body {
 }
 
 .things-text {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -136,7 +135,6 @@ body {
 }
 
 .group-item-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -150,7 +148,6 @@ body {
 }
 .footer-link {
   font-family: inherit;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -159,7 +156,6 @@ body {
 
 .footer-link-z {
   font-family: inherit;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.17;
   letter-spacing: 0.03em;
@@ -188,12 +184,23 @@ body {
   background-color: var(--accent-title-color);
 }
 
+.themes-item-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.themes-item-text {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+}
 /* -------------------------FOOTER----------------------- */
 
 .footer-link {
   font-family: inherit;
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -203,7 +210,6 @@ body {
 .footer-link-z {
   font-family: inherit;
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
