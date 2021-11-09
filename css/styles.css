@@ -35,7 +35,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--second-title-color);
+  color: var(--main-text-color);
 }
 
 .header-link:hover {
@@ -113,7 +113,7 @@ body {
 
 .things-text {
   font-size: 14px;
-  line-height: 1.14;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
 }
