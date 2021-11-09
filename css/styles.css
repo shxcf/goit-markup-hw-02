@@ -225,7 +225,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--main-text-color);
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .footer-logo {
@@ -243,5 +243,5 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: var(--second-title-color);
+  color: var(--main-title-color);
 }
